@@ -1,0 +1,28 @@
+{
+    "id": "string*",
+    "username": "string*",
+    "password": "hashed_string*",
+    "email": "string*",
+    "is_first": "boolean*",
+    "education": {
+        "furnished": "boolean*",
+        "is_college": "boolean", 
+        "//comment_01": "If college is false, assume school.",
+        "institute_name": "string",
+        "year": "string"
+    },
+    "physical": {
+        "special_needs": "scope string* | null",
+        "merch": {
+            "is_merch": "boolean*",
+            "shirt_size": "string"
+        },
+        "is_vaccinated": "boolean*",
+        "mask_agree": "true"
+    },
+    "event": {
+        "accepted": "boolean*",
+        "reason_for_failure": "Eg. Mask not worn."
+    },
+    "//comment_02": "$.event.accepted should be used to give a certificate at the end."
+}

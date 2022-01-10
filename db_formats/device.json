@@ -1,0 +1,8 @@
+{
+    "id": "string*",
+    "linked_account" : "string*",
+    "platform": "string*",
+    "has_gps": "boolean*",
+    "has_camera": "boolean*",
+    "mac_address": "string*"
+}

@@ -4,5 +4,3 @@ This is a mono-repo-like repo that will contain code, images, videos (maybe, or 
 
 - [Links](official_links.md)
 - [My Ideas](my_ideas.md)
-
-
