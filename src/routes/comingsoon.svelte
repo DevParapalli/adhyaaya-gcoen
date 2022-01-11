@@ -1,3 +1,7 @@
+<script context="module">
+	export const ssr = false
+	export const prerender = true
+</script>
 <script>
 import { onMount } from "svelte";
 
